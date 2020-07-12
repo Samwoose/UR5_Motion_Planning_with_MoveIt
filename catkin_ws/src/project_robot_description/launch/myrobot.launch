@@ -1,0 +1,5 @@
+<launch>
+  <arg name="gui" default="true"/>
+  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find project_robot_description)/urdf/my_robot.xacro'" />
+  <node name="rviz" pkg="rviz" type="rviz" if="$(arg gui)"/>
+</launch>

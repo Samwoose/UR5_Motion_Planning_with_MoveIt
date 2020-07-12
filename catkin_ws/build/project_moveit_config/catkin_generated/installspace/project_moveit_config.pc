@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_ws/install
+
+Name: project_moveit_config
+Description: Description of project_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/user/catkin_ws/install/lib 
+Requires: 
